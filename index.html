@@ -13,7 +13,7 @@
             --accent: #f89d53;  
             --text-main: #ffffff;
             --text-dim: #e2e8f0;
-            --glass: rgba(15, 15, 25, 0.8);
+            --glass: rgba(15, 15, 25, 0.85);
             --border: rgba(255, 255, 255, 0.1);
         }
 
@@ -29,14 +29,14 @@
             background-color: #0b0c10;
         }
 
-        /* Attack on Titan Background (Direct Discord Link) */
+        /* Hosted GIF Background */
         .aot-bg {
             position: fixed;
             top: 0; left: 0; width: 100%; height: 100%;
             z-index: -2;
-            background: url('https://cdn.discordapp.com/attachments/1307729115398410365/1485110479238987946/114482.gif?ex=69c0ac6a&is=69bf5aea&hm=e44c906bbc79bb4c008ebb132070cedcdb20cdb41a2446e9bcae14805029a4c3&') no-repeat center center;
+            /* This looks for the file you just uploaded to GitHub */
+            background: url('114482.gif') no-repeat center center;
             background-size: cover;
-            /* 10% Blur + Brightness Filter for readability */
             filter: brightness(0.4) blur(10px);
         }
 
@@ -45,7 +45,7 @@
 
         header { 
             background: var(--glass); border: 1px solid var(--border);
-            padding: 40px; border-radius: 25px; backdrop-filter: blur(15px); margin-bottom: 30px;
+            padding: 40px; border-radius: 25px; backdrop-filter: blur(20px); margin-bottom: 30px;
         }
         .label { color: var(--accent); font-weight: 800; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 10px; display: block; }
         h1 { font-size: 3.5rem; font-weight: 800; letter-spacing: -2px; margin-bottom: 15px; }
@@ -57,7 +57,7 @@
         }
         .stat-box {
             background: var(--glass); border: 1px solid var(--border);
-            padding: 25px; border-radius: 20px; backdrop-filter: blur(8px);
+            padding: 25px; border-radius: 20px; backdrop-filter: blur(10px);
             text-align: center;
         }
         .stat-box b { display: block; font-size: 1.8rem; color: #fff; margin-bottom: 5px; }
@@ -67,7 +67,7 @@
         
         .box {
             background: var(--glass); border: 1px solid var(--border);
-            padding: 30px; border-radius: 25px; backdrop-filter: blur(15px);
+            padding: 30px; border-radius: 25px; backdrop-filter: blur(20px);
             margin-bottom: 25px;
         }
         .title { font-size: 1.6rem; font-weight: 800; margin-bottom: 10px; color: #fff; }
@@ -124,7 +124,7 @@
             <div class="stat-box"><b>1 Year+</b><span>Experience</span></div>
         </div>
 
-        <span class="heading">Featured Work</span>
+        <span class="heading">Featured Projects</span>
         <div class="box">
             <h2 class="title">Survive And Kill The Killers In Area 51!</h2>
             <p class="desc">I am the Head Moderator for this classic game. I lead the staff team, make sure players follow the rules, and keep the game safe for everyone every day.</p>
